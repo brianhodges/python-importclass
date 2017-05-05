@@ -1,5 +1,5 @@
-from country import Country
 import sys
+from country import Country
 from country import City
 
 x = 0
