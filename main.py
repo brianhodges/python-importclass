@@ -18,12 +18,12 @@ sys.stdout = open('log.txt', 'w')
 
 print
 while x < len(countries):
-    print 'Name: ' + countries[x].name
-    print 'Population: ' + countries[x].population
-    print 'Best States: ' + ', '.join(countries[x].states)
-    print 'Top State Count: ' + str(countries[x].fav_cnt())
-    print 'Best City: ' + countries[x].best_city.name
-    print countries[x].best_city.name + ' Population: ' + countries[x].best_city.population
+    print('Name: ' + countries[x].name)
+    print('Population: ' + countries[x].population)
+    print('Best States: ' + ', '.join(countries[x].states))
+    print('Top State Count: ' + str(countries[x].fav_cnt()))
+    print('Best City: ' + countries[x].best_city.name)
+    print(countries[x].best_city.name + ' Population: ' + countries[x].best_city.population)
     print
     x += 1
 
